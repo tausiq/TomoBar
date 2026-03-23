@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "短い休憩を取りましょう！";
 "MaskNotification.restStarted.longBreak.title" = "長い休憩を取りましょう！";
 "MaskNotification.restStarted.instruction" = "ダブルクリックで休憩をスキップ、1回クリックでマスクを非表示";
+"MaskNotification.restStarted.shortcutInstruction" = "ダブルクリックで休憩をスキップ、ショートカットを押してマスクを非表示";
 "MaskNotification.restFinished.shortBreak.title" = "短い休憩が終わりました";
 "MaskNotification.restFinished.longBreak.title" = "長い休憩が終わりました";
 "MaskNotification.restFinished.instruction" = "クリックで作業を開始、ダブルクリックで作業をスキップ";

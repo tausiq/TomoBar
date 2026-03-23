@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "小憩时间到!";
 "MaskNotification.restStarted.longBreak.title" = "长休息时间到!";
 "MaskNotification.restStarted.instruction" = "双击跳过休息，单击隐藏遮罩";
+"MaskNotification.restStarted.shortcutInstruction" = "双击跳过休息，按快捷键隐藏遮罩";
 "MaskNotification.restFinished.shortBreak.title" = "短休息结束";
 "MaskNotification.restFinished.longBreak.title" = "长休息结束";
 "MaskNotification.restFinished.instruction" = "单击开始工作，双击跳过工作";

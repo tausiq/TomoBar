@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "Пора на короткий перерыв!";
 "MaskNotification.restStarted.longBreak.title" = "Пора на длинный перерыв!";
 "MaskNotification.restStarted.instruction" = "Двойной клик чтобы пропустить перерыв, одинарный клик чтобы скрыть маску";
+"MaskNotification.restStarted.shortcutInstruction" = "Двойной клик чтобы пропустить перерыв, нажмите шорткат чтобы скрыть маску";
 "MaskNotification.restFinished.shortBreak.title" = "Короткий перерыв окончен";
 "MaskNotification.restFinished.longBreak.title" = "Длинный перерыв окончен";
 "MaskNotification.restFinished.instruction" = "Клик чтобы начать работу, двойной клик чтобы пропустить работу";

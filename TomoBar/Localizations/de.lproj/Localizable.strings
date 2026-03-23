@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "Zeit für eine kurze Pause!";
 "MaskNotification.restStarted.longBreak.title" = "Zeit für eine lange Pause!";
 "MaskNotification.restStarted.instruction" = "Doppelklick zum Überspringen der Pause, einfacher Klick zum Ausblenden der Maske";
+"MaskNotification.restStarted.shortcutInstruction" = "Doppelklick zum Überspringen der Pause, Shortcut zum Ausblenden drücken";
 "MaskNotification.restFinished.shortBreak.title" = "Kurze Pause ist vorbei";
 "MaskNotification.restFinished.longBreak.title" = "Lange Pause ist vorbei";
 "MaskNotification.restFinished.instruction" = "Klicken um Arbeit zu starten, Doppelklick zum Überspringen der Arbeit";

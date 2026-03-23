@@ -1,6 +1,7 @@
 import AppKit
 import Carbon.HIToolbox
 import Foundation
+import KeyboardShortcuts
 import SwiftUI
 
 class MaskHelper {
@@ -275,6 +276,10 @@ class MaskView: NSView {
             return
         }
 
+        if KeyboardShortcuts.getShortcut(for: .dismissMask) != nil {
+            return
+        }
+
         if requiresRestFinishedConfirmation {
             handleInteractiveClick(event)
         } else {
@@ -333,9 +338,16 @@ class MaskView: NSView {
         titleLabel.stringValue = NSLocalizedString(titleKey, comment: "Rest title")
 
         // Update instruction
-        let instructionKey = isRestStarted
-            ? "MaskNotification.restStarted.instruction"
-            : "MaskNotification.restFinished.instruction"
+        let instructionKey: String
+        if isRestStarted {
+            if KeyboardShortcuts.getShortcut(for: .dismissMask) != nil {
+                instructionKey = "MaskNotification.restStarted.shortcutInstruction"
+            } else {
+                instructionKey = "MaskNotification.restStarted.instruction"
+            }
+        } else {
+            instructionKey = "MaskNotification.restFinished.instruction"
+        }
         let newTipText = NSLocalizedString(instructionKey, comment: "Mask instruction")
         tipLabel.stringValue = newTipText
 

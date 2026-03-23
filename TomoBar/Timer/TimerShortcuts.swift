@@ -22,7 +22,9 @@ extension TBTimer {
         }
         KeyboardShortcuts.onKeyUp(for: .skipTimer, action: skipInterval)
         KeyboardShortcuts.onKeyUp(for: .dismissMask) { [weak self] in
-            self?.notify.mask.hide()
+            if self?.notify.mask.maskBlockActions == false {
+                self?.notify.mask.hide()
+            }
         }
     }
 }

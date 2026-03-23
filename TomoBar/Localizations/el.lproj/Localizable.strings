@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "Ήρθε η ώρα για ένα μικρό διάλειμμα!";
 "MaskNotification.restStarted.longBreak.title" = "Ήρθε η ώρα για ένα μεγάλο διάλειμμα!";
 "MaskNotification.restStarted.instruction" = "Διπλό κλικ για παράλειψη διαλείμματος, ένα κλικ για απόκρυψη μάσκας";
+"MaskNotification.restStarted.shortcutInstruction" = "Διπλό κλικ για παράλειψη διαλείμματος, πατήστε το shortcut για απόκρυψη μάσκας";
 "MaskNotification.restFinished.shortBreak.title" = "Το μικρό διάλειμμα τελείωσε";
 "MaskNotification.restFinished.longBreak.title" = "Το μεγάλο διάλειμμα τελείωσε";
 "MaskNotification.restFinished.instruction" = "Κλικ για έναρξη εργασίας, διπλό κλικ για παράλειψη εργασίας";

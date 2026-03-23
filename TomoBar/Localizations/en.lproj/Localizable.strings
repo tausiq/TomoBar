@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "It's time for a short break!";
 "MaskNotification.restStarted.longBreak.title" = "It's time for a long break!";
 "MaskNotification.restStarted.instruction" = "Double-click to skip break, click once to hide this mask";
+"MaskNotification.restStarted.shortcutInstruction" = "Double-click to skip break, press shortcut to hide this mask";
 "MaskNotification.restFinished.shortBreak.title" = "Short break is over";
 "MaskNotification.restFinished.longBreak.title" = "Long break is over";
 "MaskNotification.restFinished.instruction" = "Click to start work, double-click to skip work";

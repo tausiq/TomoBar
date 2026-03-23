@@ -112,6 +112,7 @@
 "MaskNotification.restStarted.shortBreak.title" = "Il est temps de prendre une courte pause !";
 "MaskNotification.restStarted.longBreak.title" = "Il est temps de prendre une longue pause !";
 "MaskNotification.restStarted.instruction" = "Double-cliquez pour passer la pause, cliquez une fois pour masquer";
+"MaskNotification.restStarted.shortcutInstruction" = "Double-cliquez pour passer la pause, appuyez sur le raccourci pour masquer";
 "MaskNotification.restFinished.shortBreak.title" = "La courte pause est terminée";
 "MaskNotification.restFinished.longBreak.title" = "La longue pause est terminée";
 "MaskNotification.restFinished.instruction" = "Cliquez pour commencer le travail, double-cliquez pour passer le travail";
