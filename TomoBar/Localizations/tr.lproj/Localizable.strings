@@ -1,0 +1,116 @@
+"View.width" = "315";
+
+"View.start.label" = "Başlat";
+"View.stop.label" = "Durdur";
+"View.addMinute.help" = "Bir dakika ekle";
+"View.addFiveMinutes.help" = "Beş dakika ekle";
+"View.pause.help" = "Duraklat";
+"View.resume.help" = "Sürdür";
+"View.skip.help" = "Atla";
+"View.intervals.label" = "Aralıklar";
+"View.settings.label" = "Ayarlar";
+"View.controls.label" = "Kontroller";
+"View.sounds.label" = "Sesler";
+"View.checkForUpdates.label" = "Güncellemeleri Denetle";
+"View.about.label" = "Hakkında";
+"View.quit.label" = "Çıkış";
+
+"IntervalsView.min" = "dk";
+"IntervalsView.workIntervalLength.label" = "Çalışma";
+"IntervalsView.shortRestIntervalLength.label" = "Kısa mola";
+"IntervalsView.longRestIntervalLength.label" = "Uzun mola";
+"IntervalsView.longRestIntervalLength.help" = "Bir dizi çalışma aralığı tamamlandıktan sonra alınan uzun molanın süresi";
+"IntervalsView.workIntervalsInSet.label" = "Set başına çalışma aralığı";
+"IntervalsView.workIntervalsInSet.help" = "Uzun bir mola vermeden önceki çalışma aralığı sayısı";
+"IntervalsView.startWith.label" = "Şununla başla";
+"IntervalsView.stopAfter.label" = "Şundan sonra durdur";
+"IntervalsView.dnd.label" = "Rahatsız Etmeyin";
+"IntervalsView.dnd.off" = "Kapalı";
+"IntervalsView.dnd.onWork" = "Çalışmada";
+"IntervalsView.dnd.help" = "Çalışma/mola geçişlerinde Rahatsız Etmeyin'i açıp kapatmak için bir kısayol çalıştırır";
+"IntervalsView.presets.label" = "Hazır ayarlar";
+"IntervalsView.off.label" = "Kapalı";
+"IntervalsView.work.label" = "Çalışma";
+"IntervalsView.break.label" = "Mola";
+"IntervalsView.set.label" = "Set";
+
+"SettingsView.controls.rightclick.label" = "Simgeye sağ tık";
+"SettingsView.controls.rightclick.long.label" = "Uzun sağ";
+"SettingsView.controls.rightclick.double.label" = "Çift sağ";
+
+"SettingsView.controls.shortcuts.startStop.label" = "Başlat/durdur";
+"SettingsView.controls.shortcuts.pauseResume.label" = "Duraklat/sürdür";
+"SettingsView.controls.shortcuts.addMinute.label" = "Bir dakika ekle";
+"SettingsView.controls.shortcuts.addFiveMinutes.label" = "Beş dakika ekle";
+"SettingsView.controls.shortcuts.skipInterval.label" = "Aralığı atla";
+
+"SettingsView.timer.show.label" = "Zamanlayıcıyı göster";
+"SettingsView.timer.show.active.label" = "Etkin";
+"SettingsView.timer.show.always.label" = "Her zaman";
+"SettingsView.timer.font.label" = "Yazı tipi";
+"SettingsView.timer.font.system.label" = "Sistem";
+"SettingsView.timer.font.ptMono.label" = "PT Mono";
+"SettingsView.timer.font.sfMono.label" = "SF Mono";
+"SettingsView.timer.grayBackground.label" = "Gri arka plan";
+"SettingsView.timer.backgroundOpacity.label" = "Arka plan opaklığı";
+
+"SettingsView.alert.mode.label" = "Uyarı modu";
+"SettingsView.alert.mode.notify.label" = "Bildir";
+"SettingsView.alert.mode.fullScreen.label" = "Tam";
+"SettingsView.alert.notifyStyle.label" = "Bildirim stili";
+"SettingsView.alert.notifyStyle.system.label" = "Sistem";
+"SettingsView.alert.notifyStyle.small.label" = "Küçük";
+"SettingsView.alert.notifyStyle.big.label" = "Büyük";
+"SettingsView.alert.maskMode.blockActions.label" = "Molada ekranı kilitle";
+"SettingsView.alert.autoResumeWork.label" = "Çalışmayı otomatik sürdür";
+
+"SettingsView.app.language.label" = "Dil";
+"SettingsView.app.language.system.label" = "Sistem";
+"SettingsView.language.restart.title" = "Yeniden Başlatma Gerekli";
+"SettingsView.language.restart.message" = "TomoBar'ın yeni dil ayarını uygulayabilmesi için yeniden başlatılması gerekiyor.";
+"SettingsView.language.restart.restart" = "Şimdi Yeniden Başlat";
+"SettingsView.language.restart.later" = "Daha Sonra";
+
+"SettingsView.app.startTimerOnLaunch.label" = "Açılışta zamanlayıcıyı başlat";
+"SettingsView.app.launchAtLogin.label" = "Oturum açıldığında başlat";
+
+"SoundsView.isWindupEnabled.label" = "Kurma";
+"SoundsView.isDingEnabled.label" = "Ding";
+"SoundsView.isTickingEnabled.label" = "Tik tak";
+"SoundsView.openSoundFolder.label" = "Ses klasörünü aç";
+
+"SystemNotification.restStart.title" = "Süre doldu";
+"SystemNotification.restStart.shortBreak.body" = "Kısa bir mola zamanı!";
+"SystemNotification.restStart.longBreak.body" = "Uzun bir mola zamanı!";
+"SystemNotification.restStart.skipBreak.action" = "Molayı atla";
+"SystemNotification.restFinish.title" = "Mola bitti";
+"SystemNotification.restFinish.body" = "Çalışmaya devam et!";
+"SystemNotification.restFinish.skipWork.action" = "Çalışmayı atla";
+"SystemNotification.sessionComplete.title" = "Zamanlayıcı tamamlandı";
+"SystemNotification.sessionComplete.body" = "Oturum sona erdi";
+
+"CustomNotification.workComplete.title" = "Çalışma oturumu tamamlandı";
+"CustomNotification.workComplete.shortBreak.subtitle" = "Kısa mola zamanı";
+"CustomNotification.workComplete.longBreak.subtitle" = "Uzun mola zamanı";
+"CustomNotification.workComplete.takeBreak.action" = "Mola Ver";
+"CustomNotification.workComplete.skipBreak.action" = "Molayı Atla";
+"CustomNotification.shortBreakComplete.title" = "Kısa mola bitti";
+"CustomNotification.longBreakComplete.title" = "Uzun mola bitti";
+"CustomNotification.breakComplete.subtitle" = "Çalışmaya hazır mısın?";
+"CustomNotification.breakComplete.startWork.action" = "Çalışmaya Başla";
+"CustomNotification.breakComplete.skipWork.action" = "Çalışmayı Atla";
+"CustomNotification.sessionComplete.title" = "Zamanlayıcı tamamlandı";
+"CustomNotification.sessionComplete.subtitle" = "Oturum sona erdi";
+"CustomNotification.control.addMinute" = "+1 dk";
+"CustomNotification.control.addTwoMinutes" = "+2 dk";
+"CustomNotification.control.addFiveMinutes" = "+5 dk";
+"CustomNotification.control.restart.small" = "Yeniden başlat";
+"CustomNotification.control.restart.big" = "Oturumu Yeniden Başlat";
+"CustomNotification.control.close" = "Kapat";
+
+"MaskNotification.restStarted.shortBreak.title" = "Kısa bir mola zamanı!";
+"MaskNotification.restStarted.longBreak.title" = "Uzun bir mola zamanı!";
+"MaskNotification.restStarted.instruction" = "Molayı atlamak için çift tıkla, bu maskeyi gizlemek için bir kez tıkla";
+"MaskNotification.restFinished.shortBreak.title" = "Kısa mola bitti";
+"MaskNotification.restFinished.longBreak.title" = "Uzun mola bitti";
+"MaskNotification.restFinished.instruction" = "Çalışmaya başlamak için tıkla, çalışmayı atlamak için çift tıkla";
